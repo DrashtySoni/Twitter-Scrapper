@@ -9,7 +9,7 @@ from selenium.webdriver.common.by import By
 from webdriver_manager.chrome import ChromeDriverManager
 
 # Define the list of usernames to scrape
-usernames = ["bright_data"]
+usernames = ["username1", "username2", "username3", ..., "username500"]
 
 # Function to scrape user profile
 def scrape_profile(username):
