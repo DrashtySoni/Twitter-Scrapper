@@ -14,6 +14,13 @@ You can run the following commands to install the dependencies:
 pip install selenium
 pip install webdriver_manager
 ```
+
+Necessary Modification:
+```
+# Define the list of usernames to scrape
+usernames = ["username1", "username2", "username3", ..., "username500"]
+```
+
 Run the code:
 ```
 python profile-page.py
